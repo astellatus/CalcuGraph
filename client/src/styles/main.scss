@@ -1,0 +1,21 @@
+/*Base variables and Modules*/
+@use "./globals/base.scss" as *;
+
+/*Globals*/
+@use "./globals/reset.scss" as *;
+@use "./globals/typography.scss" as *;
+@use "./globals/buttons.scss" as *;
+@use "./globals/grid.scss" as *;
+@use "./globals/forms.scss" as *;
+@use "./globals/images.scss" as *;
+@use "./globals/fonts.scss" as *;
+
+/*Project Specific Components*/
+@use "./components/layout.scss" as *;
+@use "./components/header.scss" as *;
+@use "./components/nav.scss" as *;
+@use "./components/banner.scss" as *;
+@use "./components/footer.scss" as *;
+
+/*Vendors*/
+// @import "./vendors/." as *;

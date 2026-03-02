@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #da3f58;
+}
+
+.menu {
+    &__list {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    &__item {
+        width: 78px;
+        height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+            color: #a82332;
+        }
+    }
+
+    &__text {
+        font-family: Ubuntu, serif;
+        font-size: 12px;
+    }
+}
+
+
+.field {
+    width: 230px;
+
+    &__container {
+        display: flex;
+        position: relative;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+    }
+
+    &__input {
+        border: solid 2px black;
+        height: 30px;
+        padding-left: 30px;
+        border-radius: 5px;
+
+        &::placeholder {
+            color: black;
+        }
+    }
+}
+
+.place {
+    width: 110px;
+}
